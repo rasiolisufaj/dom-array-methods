@@ -1,0 +1,27 @@
+State(data[te dhena])
+  1.Ruhen ne vektor
+
+UI
+  1.Display every state element to the user
+
+Adding new user:
+  1. Add a new user to the state(vector) 
+      1a. Generate a new:
+              -name
+              -surname
+              -networth
+      1b. add this new user to the state(vector)
+  2. Update the UI
+      2a. Create the DOM elemnts
+      2b. Add the elements to the DOM
+
+Functions communicate through parameters and return
+  -if the function NEEDS some data from others it    gets the data through parameters
+
+    EX: createAndAddUserDOMElement(user)
+  -if other Functions NEED some data inside the funcion, the function must return this data
+    EX: addNewUserToState(){
+        ....
+        return newUser;
+    }
+
